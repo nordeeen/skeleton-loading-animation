@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Skeleton Loading Animation</title>
+  </head>
+  <body>
+    <div class="grid"></div>
+
+    <template id="card-template">
+      <div class="card">
+        <div class="header">
+          <img
+            class="header-img skeleton"
+            src="https://source.unsplash.com/100x100/?nature"
+            alt="pict-here"
+          />
+          <div class="title" data-title>
+            <div class="skeleton skeleton-text"></div>
+            <div class="skeleton skeleton-text"></div>
+          </div>
+        </div>
+        <div data-body>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+          <div class="skeleton skeleton-text"></div>
+        </div>
+      </div>
+    </template>
+    <script src="main.js"></script>
+  </body>
+</html>
